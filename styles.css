@@ -2,56 +2,66 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    color: #FFFFFF;
-    font-family: "Courier New", monospace;
+    background-image: url('/assets/images/tile.jpg');
+    background-repeat: repeat;
+    color: #33ffcc;
+    font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
 }
 
-.stars-bg {
-    background-image: url('tile.jpg');
-    background-repeat: repeat;
-    min-height: 100vh;
+/* Link colors from Heaven's Gate */
+a {
+    color: #cc99ff;  /* unvisited links */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #66cccc;  /* visited links */
+}
+
+a:active {
+    color: #ff0066;  /* active links */
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 header {
     text-align: center;
     padding: 40px 0;
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 2px solid #33ffcc;
 }
 
 h1, h2, h3 {
     text-align: center;
-    color: #39FF14;
+    color: #ff0099;  /* Pink headers like Heaven's Gate */
+    font-family: "Times New Roman", Times, serif;
 }
 
 nav {
     text-align: center;
     padding: 20px 0;
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 2px solid #33ffcc;
 }
 
 nav a {
-    color: #39FF14;
-    text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-}
-
-nav a:hover {
-    color: #FFFFFF;
+    font-size: 1.2em;
 }
 
 section {
     margin: 40px 0;
     padding: 20px;
-    border: 1px solid #39FF14;
+    /* //border: 1px solid #39FF14; */
+    border: 1px solid #33ffcc;
 }
 
 .video-links {
@@ -61,22 +71,14 @@ section {
     gap: 10px;
 }
 
-.video-links a {
+/* .video-links a {
     color: #39FF14;
     text-decoration: none;
-}
+} */
 
 .heroes-list {
     columns: 2;
     column-gap: 40px;
-}
-
-a {
-    color: #39FF14;
-}
-
-a:hover {
-    color: #FFFFFF;
 }
 
 img {
@@ -84,5 +86,13 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
-    border: 2px solid #39FF14;
+    border: 2px solid #33ffcc;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #33ffcc;
+    width: 80%;
+    margin: 20px auto;
 } 
