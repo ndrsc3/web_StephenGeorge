@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Courier New", monospace;
+    line-height: 1.6;
+}
+
+.stars-bg {
+    background-image: url('tile.jpg');
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #39FF14;
+}
+
+nav {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+nav a {
+    color: #39FF14;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+section {
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #39FF14;
+}
+
+.video-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-links a {
+    color: #39FF14;
+    text-decoration: none;
+}
+
+.heroes-list {
+    columns: 2;
+    column-gap: 40px;
+}
+
+a {
+    color: #39FF14;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #39FF14;
+} 
